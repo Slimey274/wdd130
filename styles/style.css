@@ -1,0 +1,16 @@
+body{
+    background: seashell;
+  }
+
+#wrapper {
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    border: 10px solid black;
+    border-radius: 25px;
+}
+nav {
+    margin: 0 auto;
+    font-size: 25px;
+}
