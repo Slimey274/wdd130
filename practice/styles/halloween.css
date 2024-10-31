@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    color: whitesmoke;
+}
+#wrapper {
+    max-width: 1600px;
+    margin: 0px auto;
+    text-align: center;
+    list-style-position: inside;
+    
+}
+h1 {
+    text-align: center;
+    font-family: "Rubik Wet Paint", system-ui;
+    font-size: 100px;
+    color: darkred;
+}
+#halloween-img {
+    width: 70%;
+}
+.pumpkins {
+    padding: 20px 60px;
+    margin: 59px;
+    border: 10px solid rgb(167, 13, 167);
+    border-radius: 20px;
+    background: darkorange;
+}
+.bats {
+    padding: 20px 40px;
+    margin: 59px;
+    border:20px dotted rgb(167, 13, 167);
+    border-radius: 20px;
+    background: crimson;
+}
+.skeletons {
+    padding: 20px 60px;
+    margin: 59px;
+    border: 10px double rgb(167, 13, 167);
+    border-radius: 20px;
+    background-color: rgb(12, 160, 12);
+}
