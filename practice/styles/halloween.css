@@ -31,6 +31,7 @@ h1 {
     border:20px dotted rgb(167, 13, 167);
     border-radius: 20px;
     background: crimson;
+    
 }
 .skeletons {
     padding: 20px 60px;
@@ -38,4 +39,11 @@ h1 {
     border: 10px double rgb(167, 13, 167);
     border-radius: 20px;
     background-color: rgb(12, 160, 12);
+    font-family: "Tiny5", sans-serif;
+}
+.skeletons h2 {
+    font-size: 70px;
+}
+.skeletons p {
+    font-size: 30px;
 }
