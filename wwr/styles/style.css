@@ -217,3 +217,23 @@ footer p a:hover {
         margin-top: 25px;
     }
 }
+#FAQ {
+    margin: auto;
+    padding: auto;
+}
+#river {
+    margin: auto;
+    padding: auto;
+}
+#blog {
+    margin: auto;
+}
+#RatesDates {
+    margin: auto;
+}
+#contact-us {
+    margin: auto;
+}
+ul {
+    list-style-type: none;
+}
