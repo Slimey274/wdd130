@@ -13,10 +13,27 @@
             event.preventDefault();
 
             const firstName = document.getElementById("firstName").value;
-
+            const newsletter = document.getElementById("newsletter").checked;
             alert(`You typed a First Name: ${firstName}.`);
+            alert(`Newsletter was Checked ${newsletter}.`)
         }
     </script>
+    <style>
+        main {
+            display: grid;
+            text-align: center;
+            margin: 5% auto;
+            background: whitesmoke;
+            background-size: 100px 300px;
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 10px 10px lightblue;
+        }
+        button {
+            font-size: 35px;
+            background: aqua;
+        }
+    </style>
 </head>
 <body>
     <div id="wrapper">
