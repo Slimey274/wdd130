@@ -8,6 +8,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
+    <script>
+        function handleSubmit(event){
+            event.preventDefault();
+
+            const firstName = document.getElementById("firstName").value;
+
+            alert(`You typed a First Name: ${firstName}.`);
+        }
+    </script>
 </head>
 <body>
     <div id="wrapper">
@@ -21,7 +30,7 @@
             </nav>
         </header>
         <main>
-            <form>
+            <form onsubmit="handleSubmit(event)">
                 <label for="fname">First Name:</label>
                 <input type="text" id="firstName" name="firstName" required>
                 <br><br>
