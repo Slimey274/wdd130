@@ -237,3 +237,15 @@ footer p a:hover {
 ul {
     list-style-type: none;
 }
+.river-image {
+    width: 100%;
+    height: 20%;
+}
+.river {
+    text-align: center;
+
+}
+.blog {
+    margin: 0 auto;
+    text-align: center;
+}
