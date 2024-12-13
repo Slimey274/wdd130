@@ -75,7 +75,38 @@ p {
     background-color: #111;
 }
 /* Spring and Summer CSS */
-
+.spring-img {
+    display: block;
+    margin: 0 auto;
+    background-image: url("../images/spring.jpg");
+    height: 500px;
+    width: 100%;
+    background-size:cover;
+}
+.summer-img {
+    display: block;
+    margin: 0 auto;
+    background-image: url("../images/summer.jpg");
+    height: 500px;
+    width: 100%;
+    background-size:cover;
+}
+h2 {
+    font-size: 55px;
+    font-family: Oswald;
+}
+.spring-list{
+    list-style-type: none;
+    text-align: center;
+    font-family: Itim;
+    font-size: 25px;
+}
+.summer-list {
+    list-style-type: none;
+    text-align: center;
+    font-family: Itim;
+    font-size: 25px;
+}
 /* Fall and Winter CSS */
 
 /* Tried to add parallax to my home page */
