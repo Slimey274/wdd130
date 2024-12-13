@@ -96,7 +96,7 @@ h2 {
     font-size: 55px;
     font-family: Oswald;
 }
-.spring-list{
+.spring-list {
     list-style-type: none;
     text-align: center;
     font-family: Itim;
@@ -109,7 +109,34 @@ h2 {
     font-size: 25px;
 }
 /* Fall and Winter CSS */
-
+.fall-img {
+    display: block;
+    margin: 0 auto;
+    background-image: url("../images/fall.jpg");
+    height: 500px;
+    width: 100%;
+    background-size:cover;
+}
+.winter-img {
+    display: block;
+    margin: 0 auto;
+    background-image: url("../images/winter.jpg");
+    height: 500px;
+    width: 100%;
+    background-size:cover;
+}
+.fall-list {
+    list-style-type: none;
+    text-align: center;
+    font-family: Itim;
+    font-size: 25px;
+}
+.winter-list {
+    list-style-type: none;
+    text-align: center;
+    font-family: Itim;
+    font-size: 25px;
+}
 /* Tried to add parallax to my home page */
 .parallax {
     /* Set a specific height */
